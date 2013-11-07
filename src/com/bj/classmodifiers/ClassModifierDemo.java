@@ -1,4 +1,4 @@
-package com.behindjava.classmodifiers;
+package com.bj.classmodifiers;
 
 import java.io.DataOutputStream;
 import java.io.File;
@@ -66,7 +66,7 @@ public class ClassModifierDemo {
     }
 
     public static void main(String[] args) throws IOException {
-        InputStream in=ASMHelloWorld.class.getResourceAsStream("/com/geekyarticles/asm/ClassModificationDemo.class");
+        InputStream in=ASMHelloWorld.class.getResourceAsStream("/com/behindjava/classmodifiers/ClassModificationDemo.class");
         ClassReader classReader=new ClassReader(in);
         ClassWriter cw=new ClassWriter(ClassWriter.COMPUTE_MAXS);
         

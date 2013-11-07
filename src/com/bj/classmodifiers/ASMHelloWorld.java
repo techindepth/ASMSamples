@@ -1,4 +1,4 @@
-package com.behindjava.classmodifiers;
+package com.bj.classmodifiers;
 
 import java.io.IOException;
 import java.io.InputStream;
